@@ -3,7 +3,7 @@ const app = express();
 const uri = require('./app/config/db.config.js');
 
 const mongoose = require('mongoose');
-/* require('./app/routes/spoti.router.js')(app); */
+require('./app/routes/spotifai.router.js')(app);
 
 mongoose.set('useUnifiedTopology', true);
 mongoose.set('useNewUrlParser', true);
